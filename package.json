@@ -1,6 +1,6 @@
 {
   "name": "domain-availability-mcp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Domain availability MCP server: check if domain names are available to register, with prices and WHOIS, from Claude, Cursor, Codex and other AI agents.",
   "keywords": [
     "mcp",

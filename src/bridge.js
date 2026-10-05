@@ -12,7 +12,7 @@
 export const DEFAULT_URL = 'https://namechan.com/mcp';
 
 /** Sent as the User-Agent; kept in step with package.json. */
-const VERSION = '1.1.0';
+const VERSION = '1.1.1';
 
 /**
  * Sends one message (or batch) upstream. Returns the parsed answer, or null

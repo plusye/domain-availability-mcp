@@ -8,7 +8,7 @@
     "url": "https://github.com/plusye/domain-availability-mcp",
     "source": "github"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "remotes": [
     {
       "type": "streamable-http",
@@ -27,7 +27,7 @@
     {
       "registryType": "npm",
       "identifier": "domain-availability-mcp",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "transport": {
         "type": "stdio"
       },
