@@ -1,0 +1,17 @@
+# Dependencies and build output
+node_modules/
+*.tgz
+coverage/
+
+# Credentials: an API key or npm token must never be committed
+.env
+.env.*
+.npmrc
+api-key
+
+# Logs and OS / editor files
+*.log
+npm-debug.log*
+.DS_Store
+.idea/
+.vscode/

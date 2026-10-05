@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.plusye/domain-availability",
+  "title": "Domain Availability Checker",
+  "description": "Check if domain names are available to register, with prices and WHOIS. Free, no key needed.",
+  "websiteUrl": "https://namechan.com/domain-availability-mcp",
+  "repository": {
+    "url": "https://github.com/plusye/domain-availability-mcp",
+    "source": "github"
+  },
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://namechan.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Bearer <API key> for a larger allowance tied to your account; without it calls are limited per address. Free key: https://namechan.com/api-keys",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "domain-availability-mcp",
+      "version": "1.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "NAMECHAN_API_KEY",
+          "description": "Optional API key from https://namechan.com/api-keys for a larger allowance tied to your account; without it calls are limited per address.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
